@@ -3,38 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Portfolio</title>
+    <title>Portafolio - Hernan</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        /* Agrega tus estilos personalizados aquí */
+    </style>
 </head>
 <body>
-    <img src="./images/logo.png" alt="Logo: Pancito" />
-    <h1>Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="header-container">
+            <img src="./images/logo.png" alt="Logo: Pancito" />
+            <h1>Hernan</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
-        <section class="skills">
-            <h2>Habilidades blandas</h2>
-            <ol>
-                <li>Alto compromiso</li>
-                <li>Auto-aprendizaje</li>
-                <li>Trabajo en equipo</li>
-            </ol>
-            <h2>Habilidades duras</h2>
-            <ol>
-                <li>Vanilla JavaScript</li>
-                <li>Angular</li>
-                <li>Node/Express</li>
-                <li>MongoDB</li>
-            </ol>
+        <section class="intro">
+            <div class="intro-container">
+                <h2>Bienvenido a mi portafolio</h2>
+                <p>¡Hola! Soy Hernan, un apasionado por la codificacion. Aquí puedes conocer más sobre mí y mi trabajo.</p>
+            </div>
         </section>
-        <section class="subcribe">
-            <form action="">
-                <input type="text" />
-            </form>
+        <section class="skills">
+            <div class="skills-container">
+                <h2>Habilidades</h2>
+                <div class="soft-skills">
+                    <h3>Habilidades blandas</h3>
+                    <ul>
+                        <li>Alto compromiso</li>
+                        <li>Auto-aprendizaje</li>
+                        <li>Trabajo en equipo</li>
+                    </ul>
+                </div>
+                <div class="hard-skills">
+                    <h3>Habilidades duras</h3>
+                    <ul>
+                        <li>Vanilla JavaScript</li>
+                        <li>Angular</li>
+                        <li>Node/Express</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe-container">
+                <h2>Suscríbete a mi boletín</h2>
+                <p>Mantente actualizado sobre mis proyectos y noticias.</p>
+                <form action="#">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

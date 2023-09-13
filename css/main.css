@@ -1,1 +1,136 @@
-/* Estilos generales del sitio */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5733;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.soft-skills, .hard-skills {
+    margin-bottom: 20px;
+}
+
+.soft-skills h3, .hard-skills h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.subscribe h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.subscribe form {
+    margin-top: 20px;
+}
+
+.subscribe input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscribe button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe button:hover {
+    background-color: #e74422;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-container p {
+    font-size: 14px;
+}
